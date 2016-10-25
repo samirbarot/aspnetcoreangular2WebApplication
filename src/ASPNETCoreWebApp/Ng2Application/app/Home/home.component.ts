@@ -23,8 +23,8 @@ export class HomeComponent {
 
     greet(name: string): void {
         this.helloService
-            .greet(name) // For Testing
-            //.greetcore(name) // For Running App
+            //.greet(name) // For Testing
+            .greetcore(name) // For Running App
             .subscribe(data => this.greeting = data, error => this.errorMessage = error);
     }
 }
