@@ -1,5 +1,10 @@
 ﻿import {platformBrowserDynamic}          from "@angular/platform-browser-dynamic";
-import {AppModule} from "./app.module";
+import { AppModule } from "./app.module";
+import { getTranslationProviders } from "./i18n-providers";
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-    .catch(err => console.error(err));
+getTranslationProviders()
+  .then(providers => {
+    const options = { providers };
+    platformBrowserDynamic().bootstrapModule(AppModule, (options) as any)
+      .catch(err => console.error(err));
+  });

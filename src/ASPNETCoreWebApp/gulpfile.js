@@ -82,6 +82,10 @@ gulp.task("static files",
     function() {
         gulp.src("Ng2Application/app/systemjs.config.js")
             .pipe(gulp.dest(destPath + "app/"));
+        gulp.src("Ng2Application/app/systemjs-text-plugin.js")
+            .pipe(gulp.dest(destPath + ""));
+        gulp.src("Ng2Application/locale/*")
+            .pipe(gulp.dest(destPath + "locale/"));
         gulp.src("Ng2Application/app/index.html")
             .pipe(gulp.dest(destPath + "app/"));
     });

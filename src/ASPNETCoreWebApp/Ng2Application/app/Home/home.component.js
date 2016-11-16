@@ -31,7 +31,7 @@ System.register(["@angular/core", "./hello.service"], function(exports_1, contex
                 HomeComponent.prototype.greet = function (name) {
                     var _this = this;
                     this.helloService
-                        .greet(name) // For Testing
+                        .greetcore(name) // For Running App
                         .subscribe(function (data) { return _this.greeting = data; }, function (error) { return _this.errorMessage = error; });
                 };
                 HomeComponent = __decorate([

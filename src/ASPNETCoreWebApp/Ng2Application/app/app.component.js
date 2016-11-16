@@ -24,7 +24,7 @@ System.register(["@angular/core"], function(exports_1, context_1) {
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: "app",
-                        template: "<router-outlet></router-outlet>"
+                        template: "\n\t<h1>My First Angular App</h1>\n\t\t<h2 i18n=\"header\">Login form</h2>\n\t<div>\n\t\t<span i18n>Email</span>\n\t\t<input type=\"text\" placeholder=\"Your email\" i18n-placeholder>\n\t</div>\n\t<div>\n\t\t<span i18n>Password</span>\n\t\t<input type=\"password\" placeholder=\"Password\" i18n-placeholder>\n\t</div>\n\t<hr>\n\t<div i18n>If you want to search something, go to <a href=\"http://google.com\">Google</a></div>\n\n\t<router-outlet></router-outlet>"
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
