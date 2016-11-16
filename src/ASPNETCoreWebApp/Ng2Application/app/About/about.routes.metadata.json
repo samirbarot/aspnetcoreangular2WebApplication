@@ -1,1 +1,0 @@
-{"__symbolic":"module","version":1,"metadata":{"aboutRoutes":{"__symbolic":"call","expression":{"__symbolic":"select","expression":{"__symbolic":"reference","module":"@angular/router","name":"RouterModule"},"member":"forChild"},"arguments":[[{"path":"about","component":{"__symbolic":"reference","module":"./about.component","name":"AboutComponent"}}]]}}}
