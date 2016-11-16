@@ -1,0 +1,1 @@
+{"__symbolic":"module","version":1,"metadata":{"routing":{"__symbolic":"call","expression":{"__symbolic":"select","expression":{"__symbolic":"reference","module":"@angular/router","name":"RouterModule"},"member":"forRoot"},"arguments":[[{"path":"","redirectTo":"home","pathMatch":"full"},{"path":"product","loadChildren":"app/product/product.module#ProductModule"}]]}}}
